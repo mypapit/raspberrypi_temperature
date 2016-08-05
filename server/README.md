@@ -1,4 +1,4 @@
-[Automatic Raspberry pi CPU temperature reporting]
+# Automatic Raspberry pi CPU temperature reporting
 Copyright (c) 2016 Mohammad Hafiz bin Ismail <mypapit@gmail.com>
 
 This packages contains a quick and dirty hack for raspberry pi to report its CPU temperature to a remote server.
@@ -10,7 +10,7 @@ and is stored in "python-code" directory
 The server-side is written in PHP (tested with  PHP 5.5.9 under Ubuntu 14.04 LTS)
 
 
-[Server Side requirements]
+## Server Side requirements
 python 2.7.9 (tested)
 python-pip
 Python HTTP Requests libary (python-requets.org)
@@ -22,7 +22,7 @@ then I install Python HTTP Requests:
 pip install requests
 
 
-[Client Side requirements]
+## Client Side requirements
 php 5.5.9 (tested)
 php-sqlite3
 
